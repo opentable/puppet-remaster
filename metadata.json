@@ -4,7 +4,7 @@
         { "operatingsystem": "CentOS" },
         { "operatingsystem": "Debian" },
         { "operatingsystem": "Ubuntu" },
-        { "operatingsystem": "Windows" },
+        { "operatingsystem": "Windows" }
     ],
     "requirements": [
         {
@@ -32,6 +32,10 @@
         {
             "name": "puppetlabs/inifile",
             "version_requirement": ">= 1.0.3"
+        },
+        {
+            "name": "opentable/altlib",
+            "version_requirement": ">= 0.2.0"
         }
     ]
 }

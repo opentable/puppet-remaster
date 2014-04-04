@@ -37,7 +37,7 @@ class remaster (
       setting => 'server',
       value   => $puppetmaster,
       path    => $::agent_config,
-      notify  => Service['puppet'],
+      notify  => Service['puppet']
     } ->
 
     ini_setting { 'update_main_ca_server':
@@ -45,26 +45,26 @@ class remaster (
       section => 'main',
       setting => 'ca_server',
       value   => $puppetmaster,
-      path    => $::agent_config,
+      path    => $::agent_config
     } ->
 
     ini_setting { 'remove_agent_server':
       ensure  => absent,
       section => 'agent',
       setting => 'server',
-      path    => $::agent_config,
+      path    => $::agent_config
     } ->
 
     ini_setting { 'remove_agent_ca_server':
       ensure  => absent,
       section => 'agent',
       setting => 'ca_server',
-      path    => $::agent_config,
+      path    => $::agent_config
     } ->
 
     file { $::agent_ssldir:
       ensure => absent,
-      force  => true,
+      force  => true
     }
   }
 
