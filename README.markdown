@@ -15,6 +15,8 @@
 
 The remaster module for managing the transition of a puppet agent between masters
 
+[![Build Status](https://travis-ci.org/opentable/puppet-remaster.png?branch=master)](https://travis-ci.org/opentable/puppet-remaster)
+
 ##Module Description
 
 This module manages the server agent settings on a given puppet node. The intention of doing this is that it allows you to transition your node
