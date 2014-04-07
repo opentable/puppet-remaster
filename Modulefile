@@ -1,5 +1,5 @@
 name          'opentable-remaster'
-version       '0.1.1'
+version       '0.1.2'
 source        'git://github.com/opentable/puppet-remaster.git'
 author        'opentable'
 summary       'Module for managing the remaster of agent nodes'
@@ -7,5 +7,5 @@ description   'Install the module and define your master to configure which mast
 project_page  'https://github.com/opentable/puppet-remaster'
 license       'MIT'
 dependency    'puppetlabs/stdlib', '>=3.0.0'
-dependency    'puppetlabs/inifile', '>= 1.0.3'
+dependency    'puppetlabs/inifile', '>= 1.0.0'
 dependency    'opentable/altlib', '>=0.2.0'
