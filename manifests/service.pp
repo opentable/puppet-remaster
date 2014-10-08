@@ -1,6 +1,10 @@
+# Author::    Drew Wilson (mailto:dwilson@opentable.com)
+# Copyright:: Copyright (c) 2013 OpenTable Inc
+# License::   MIT
+
 # == Class remaster::service
 #
-# This class is meant to be called from remaster
+# This private class is meant to be called from `remaster`
 # It ensure the service is running
 #
 class remaster::service {

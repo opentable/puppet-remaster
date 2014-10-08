@@ -1,3 +1,7 @@
+# Author::    Drew Wilson (mailto:dwilson@opentable.com)
+# Copyright:: Copyright (c) 2013 OpenTable Inc
+# License::   MIT
+
 # == Class: remaster
 #
 # This will manage the server configuration of your puppet node allowing you
